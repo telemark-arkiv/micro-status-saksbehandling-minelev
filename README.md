@@ -3,6 +3,8 @@
 
 # micro-status-saksbehandling-minelev
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-status-saksbehandling-minelev.svg)](https://greenkeeper.io/)
+
 Stats for the MinElev robot
 
 ## API
