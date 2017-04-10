@@ -1,7 +1,7 @@
 {
   "name": "micro-status-saksbehandling-minelev",
   "description": "Shows status for saksbehandling minelev",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "private": true,
   "author": {
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "coveralls": "2.11.16",
-    "tap": "10.2.1"
+    "tap": "10.2.1",
     "nsp": "2.6.3",
     "standard": "9.0.2"
   },
