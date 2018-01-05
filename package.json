@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.4.0"
+    "node": ">=8.9.4"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -21,7 +21,7 @@
     "setup": "npm install",
     "standard-fix": "standard --fix",
     "start": "NODE_ENV=production micro -p 8080",
-    "dev": "micro",
+    "dev": "micro-dev",
     "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
@@ -34,26 +34,25 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/micro-status-saksbehandling-minelev.git"
+    "url": "git+https://github.com/telemark/micro-status-saksbehandling-minelev.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/micro-status-saksbehandling-minelev/issues"
+    "url": "https://github.com/telemark/micro-status-saksbehandling-minelev/issues"
   },
+  "homepage": "https://github.com/telemark/micro-status-saksbehandling-minelev#readme",
   "now": {
     "alias": "minelev.saksbehandling.status.t-fk.win"
   },
-  "greenkeeper": {
-    "emails": false
-  },
   "devDependencies": {
-    "coveralls": "2.13.0",
-    "tap": "10.3.2",
-    "nsp": "2.6.3",
-    "standard": "10.0.1"
+    "coveralls": "3.0.0",
+    "micro-dev": "2.1.2",
+    "tap": "11.0.1",
+    "nsp": "3.1.0",
+    "standard": "10.0.3"
   },
   "dependencies": {
-    "got": "6.7.1",
-    "marked": "0.3.6",
-    "micro": "7.3.0"
+    "got": "8.0.1",
+    "marked": "0.3.9",
+    "micro": "9.0.2"
   }
 }
